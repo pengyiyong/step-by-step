@@ -1,0 +1,192 @@
+@import url(reset.css);
+#matrix{
+    width:100%;
+    margin:0px auto;/*整体布局居中*/
+}
+#header{
+    background-image: url("");
+    background-color: #EEE;
+    width:100%;
+    height:128px;
+}
+.menu_li{
+    float:left;
+    width:200px;/*每列的距离*/
+    height:37px;
+    margin-right:2px;
+}
+.menu_li a{
+    display:block;/*把a标签转换成块元素*/
+    height:37px;
+    text-align:center;
+    font-size:16px;
+    font-family:"微软雅黑","黑体",sans-serif;
+    line-height: 37px;
+    color: #342cff;
+}
+.menu_li a:hover{
+    color: #cec3ff;
+}
+.menu_li a:link{
+    color: #ee4085;
+}
+.menu_lia:visited {
+    color: #ffa043;
+}
+#banner{
+    margin: 3px 0;
+    background-color: #ccccb2;
+    margin-top: 400px;
+}
+
+#main{
+    width:1500px;
+    height: 473px;
+}
+#lside{
+    background: rgba(25, 20, 24, 0.96);
+    float:left;
+    width:1150px;
+    height:673px;
+    border:1px solid #e7a32a;
+    margin-bottom: 100px;
+}
+.subtitle{
+    /*background:#E7E7E7 url(../image/奔驰02.jpg) repeat-x;*/
+    background: black;
+    width:auto;
+    height: 37px;
+    margin-bottom: 3px;
+}
+.subtitle img{
+    display: inline;/*设置对象为行内对象显示；多个div可以像span在一行内显示*/
+    margin: 5px 10px 0 10px;
+    float: left;
+}
+.subtitle h1{
+    line-height: 37px;
+    color: #cccccc;
+    /*margin: 0 10 0 10px;!*此处为何有红线*!*/
+    float: left;
+}
+
+.subtitle h2{
+    line-height: 37px;
+    color: #cccccc;
+    float: right;
+}
+.l_article{
+    width: 530px;
+    height: 288px;
+    margin: 10px;
+    background-color: #191714;
+    float: left;
+    padding: 10px 0 0 10px;
+    color: #cccccc;
+}
+#lside .l_article img{
+    margin-top: 3px;
+    float: left;
+    display: inline;
+    padding:3px;
+    background:black;
+    width: 350px;
+    height: 245px;
+
+}
+#lside li{
+    float:left;
+    text-align: center;
+    font-family: 宋体;
+    font-size: 14px;
+    display: inline;
+    line-height: 100px;
+    /*background: url(../image/柯基.jpg) no-repeat;*/
+    padding: 0 0 8px 12px;
+    margin: 0 0 0 0px;
+}
+#rside{
+    background: #191114;
+    width:340px;
+    height:473px;
+    float:right;
+}
+#rside #r_article_top{
+    background: #181918;
+    width:320px;
+    height:213px;
+    margin-top:2px;
+}
+#rside #r_article_top a{
+    display: block;
+    width:294px;
+    height: 29px;
+    padding: 8px 0 0 25px;
+    color: white;
+    font-family: 宋体;
+    font-size: 14px;
+}
+#rside #r_article_top a:hover{
+    color:#FF832C;
+}
+#rside #r_article_top li{
+    /*background:url(../image/01.jpg) no-repeat;*/
+    color:#808080;
+    font-size: 12px;
+    width:294px;
+    height: 29px;
+    display: block;
+    font-family: "宋体";
+}
+#rside #r_article2_bottom{
+    width: 320px;
+    height: 413px;
+    margin-top:10px;
+    background: #191717;
+}
+#r_article2_bottom #address li{
+    font-family: "宋体";
+    font-size: 14px;
+    padding: 20px 0 0 15px;
+    color: white;
+}
+#r_article2_bottom #address li img{
+    display: inline;
+    float: left;
+    margin-right:16px;
+}
+#r_article2_bottom #address span{
+    display: block;
+    float: left;
+    padding:-20px 0 0 10;
+}
+#footer{
+    clear: both;/*规定任一侧不出现其他浮动元素*/
+    width:1002px;
+    height: 220px;
+}
+#footer #ulink{
+    width:1530px;/*底栏宽度*/
+    height: 40px;
+    background: #E7E7E7;
+
+}
+
+#footer #ulink li{
+    display: inline;
+    line-height: 40px;
+    color:#979797;
+    margin:0 5px 0 10px;
+}
+#footer #copyRight{
+    width: 1002px;
+    height:20px;
+    font-size: 12px;
+    color:#979797;;
+}
+#footer #copyRight a{
+    color:#FF832C;
+}
+#footer #copyRight a:hover{
+    color:#979797;
+}
